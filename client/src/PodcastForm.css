@@ -1,0 +1,168 @@
+/* General Container Styling */
+.podcast-form-container {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background: linear-gradient(135deg, #000, #222);
+  height: 1000px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center all items horizontally */
+  justify-content: flex-start; /* Ensure items start from the top */
+  padding: 20px; /* Add padding to avoid content touching edges */
+}
+
+/* Form Container */
+.podcast-form {
+  background: rgba(255, 255, 255, 0.1); 
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+/* Logo and Greeting Styling */
+.logo-container .company-logo {
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.greeting {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Form Input and Button Styling */
+.input-label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.enhanced-input {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #555;
+  border-radius: 5px;
+  background: #222;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.enhanced-input:focus {
+  border-color: #fff;
+  outline: none;
+  background: #333;
+}
+
+.generate-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.generate-button:hover {
+  background: #444;
+  color: #fff;
+}
+
+/* Audio Player Section */
+.audio-player-wrapper {
+  width: 90%;
+  text-align: center;
+}
+
+.audio-player-container {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1); 
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  width: 90%;
+  height: 100px;
+}
+
+.audio-player {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  background: #444;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.download-link:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Transcript Button */
+.transcript-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.transcript-button:hover {
+  background: #555;
+}
+
+/* Transcript Box */
+.transcript-box {
+  width: 97.5%;
+  height:fit-content;
+  margin-top: 15px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: left;
+}
+
+.transcript-box h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.transcript-box p {
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.5;
+}
